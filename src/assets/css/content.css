@@ -1,0 +1,149 @@
+/* Base */
+.home {
+  font-family: Arial, sans-serif;
+  color: #0a1a2f;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0a1a2f, #132f4c);
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+  color: #f5c542;
+  margin: 10px 0;
+}
+
+.hero-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.hero-buttons .btn {
+  padding: 10px 22px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.primary {
+  background-color: #f5c542;
+  color: #0a1a2f;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #f5c542;
+  color: #f5c542;
+}
+
+/* Hero Image */
+.hero-image-box img {
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* About Section */
+.about {
+  padding: 70px 20px;
+}
+
+.about-content {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Highlights */
+.highlights {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Quote Section */
+.quote {
+  background-color: #0a1a2f;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  color: #f5c542;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content,
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image-box img,
+  .about-image img {
+    width: 260px;
+  }
+}
