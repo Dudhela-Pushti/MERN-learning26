@@ -17,6 +17,11 @@ import { Route, Routes } from "react-router-dom";
 import { IplHome } from './components/IplHome'
 import { IplTeam } from './components/IplTeam'
 import { IplTimeTable } from './components/IplTimeTable'
+import { Employees } from './components/Employees'
+import { Input } from './input/Input'
+import { FormDemo1 } from './form/FormDemo1'
+import { FormDemo2 } from './form/FormDemo2'
+import { FormDemo3 } from './form/FormDemo3'
 //import './App.css'
 
 function App() {
@@ -31,6 +36,11 @@ function App() {
         <Route path="/TeamDetail" element={<IplTeam/>}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
         <Route path="/watch/:name" element = {<Watch/>}></Route>
+        <Route path="/employees" element={<Employees/>}></Route>
+        <Route path="/input" element={<Input/>}></Route>
+        <Route path="/formdemo1" element={<FormDemo1/>}></Route>
+        <Route path="/formdemo2" element={<FormDemo2/>}></Route>
+        <Route path="/formdemo3" element={<FormDemo3/>}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         </Routes>
       </div>

@@ -37,7 +37,31 @@ export const NavBar = () => {
                 Time-Table
               </Link>
             </li>
-            
+            <li class="nav-item">
+              <Link class="nav-link" to="/employees">
+                employees
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/input">
+                input 
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo1">
+                FormDemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo2">
+                FormDemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo3">
+                FormDemo3
+              </Link>
+            </li>
 
           </ul>
         </div>
