@@ -62,6 +62,16 @@ export const NavBar = () => {
                 FormDemo3
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/studentform">
+                StudentForm
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/registerform">
+                RegisterForm
+              </Link>
+            </li>
 
           </ul>
         </div>

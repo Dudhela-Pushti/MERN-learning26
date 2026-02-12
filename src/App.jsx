@@ -22,6 +22,8 @@ import { Input } from './input/Input'
 import { FormDemo1 } from './form/FormDemo1'
 import { FormDemo2 } from './form/FormDemo2'
 import { FormDemo3 } from './form/FormDemo3'
+import { StudentForm } from './form/StudentForm'
+import { RegisterForm } from './form/RegisterForm'
 //import './App.css'
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
         <Route path="/formdemo1" element={<FormDemo1/>}></Route>
         <Route path="/formdemo2" element={<FormDemo2/>}></Route>
         <Route path="/formdemo3" element={<FormDemo3/>}></Route>
+        <Route path="/studentform" element={<StudentForm/>}></Route>
+        <Route path="/registerform" element={<RegisterForm/>}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         </Routes>
       </div>
