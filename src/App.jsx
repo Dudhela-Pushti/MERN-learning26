@@ -9,7 +9,7 @@ import { MapDemo2 } from './components/MapDemo2'
 import { MapDemo3 } from './components/MapDemo3'
 import { MapDemo4 } from './components/MapDemo4'
 import { MapDemo5 } from './components/MapDemo5'
-import { NavBar } from './components/NavBar'
+import { NavBar } from './components/Navbar'
 import { HomeComponent } from './components/HomeComponent'
 import { ErrorNotFound } from './components/ErrorNotFound'
 import { Watch } from './components/Watch'
@@ -24,6 +24,8 @@ import { FormDemo2 } from './form/FormDemo2'
 import { FormDemo3 } from './form/FormDemo3'
 import { StudentForm } from './form/StudentForm'
 import { RegisterForm } from './form/RegisterForm'
+import { FormAllValidation } from './form/FormAllValidation'
+import { FormWatch } from './form/FormWatch'
 //import './App.css'
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
         <Route path="/formdemo3" element={<FormDemo3/>}></Route>
         <Route path="/studentform" element={<StudentForm/>}></Route>
         <Route path="/registerform" element={<RegisterForm/>}></Route>
+        <Route path="/formallvalidation" element={<FormAllValidation/>}></Route>
+        <Route path="/formwatch" element={<FormWatch/>}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         </Routes>
       </div>
